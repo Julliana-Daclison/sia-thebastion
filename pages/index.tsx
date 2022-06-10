@@ -1,11 +1,12 @@
 import { NextPage } from "next"
 import { useSession, signIn, signOut } from "next-auth/react"
+import { HomePage } from "../page-components/hompage"
 
 
 const Home: NextPage = () =>{
 
   return (
-    <div></div>
+    <HomePage />
   )
 }
 
