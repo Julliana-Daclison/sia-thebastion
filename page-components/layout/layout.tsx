@@ -2,7 +2,6 @@ import { HTMLHead } from "./head";
 import { GlobalStyles } from "@/styled/theme";
 import { Header } from "@/components/layout/header";
 
-
 interface LayoutChildren{
   children: React.ReactNode
 }
